@@ -49,6 +49,7 @@ public class MyAddressTest extends TestClass {
 	public void checkMyAddressasd() {
 	//Assert.assertTrue(myaddrs.addNewAddressButton());
 		//Assert.assertEquals(myaddrs.addNewAddressButton(),"My addressasd");
+		System.out.println("**************************************************************************$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
 		System.out.println("My Addressasd button is present: "+myaddrs.addNewAddressButton());
 	}
 	
