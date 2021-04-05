@@ -44,7 +44,8 @@ public class MyAddressTest extends TestClass {
 		System.out.println("URL of My Address is: "+myaddrs.getPageUrl());
 	}
 	
-	@Test(priority = 2)
+	@Ignore
+	//Test(priority = 2)
 	public void checkMyAddressasd() {
 	//Assert.assertTrue(myaddrs.addNewAddressButton());
 		//Assert.assertEquals(myaddrs.addNewAddressButton(),"My addressasd");

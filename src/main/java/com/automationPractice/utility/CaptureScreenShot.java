@@ -13,8 +13,8 @@ public class CaptureScreenShot extends TestClass {
 
 	public static void takeScreenshotAtEndOfTest() throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		String currentDir = System.getProperty("user.dir");
-		FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
+		//String currentDir = System.getProperty("user.dir");
+		FileUtils.copyFile(scrFile, new File("/screenshots/" + System.currentTimeMillis() + ".png"));
 
 	}
 }
