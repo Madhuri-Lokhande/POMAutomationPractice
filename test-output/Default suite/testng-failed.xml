@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automationPractice.Tests.ContactUsTest">
+      <class name="com.automationPractice.Tests.MyAddressTest">
         <methods>
+          <include name="checkMyAddressasd"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="verifyFileUpload"/>
         </methods>
-      </class> <!-- com.automationPractice.Tests.ContactUsTest -->
+      </class> <!-- com.automationPractice.Tests.MyAddressTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
